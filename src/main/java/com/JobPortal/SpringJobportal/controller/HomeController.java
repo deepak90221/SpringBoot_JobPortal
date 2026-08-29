@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HomeController {
 
-    @GetMapping("/")
+    @GetMapping("/homepagecheck")
     public String home() {
         return "Spring Boot Job Portal is working!";
     }
