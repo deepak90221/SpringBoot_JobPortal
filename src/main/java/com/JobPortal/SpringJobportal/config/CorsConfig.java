@@ -18,7 +18,7 @@ public class CorsConfig {
 
         config.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "https://spring-job-portal-frontend-six.vercel.app"
+                "https://spring-job-portal-frontend-web.vercel.app"
         ));
 
         config.setAllowedMethods(List.of(
@@ -30,6 +30,7 @@ public class CorsConfig {
         ));
 
         config.setAllowedHeaders(List.of("*"));
+
         config.setAllowCredentials(true);
 
         UrlBasedCorsConfigurationSource source =
