@@ -11,7 +11,7 @@ import com.JobPortal.SpringJobportal.repository.JobRepository;
 
 @RestController
 @RequestMapping("/jobs")
-@CrossOrigin(origins = "http://localhost:5173")
+//@CrossOrigin(origins = "http://localhost:5173")
 public class JobController {
 
     @Autowired

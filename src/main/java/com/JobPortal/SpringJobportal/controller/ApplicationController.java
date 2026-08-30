@@ -23,7 +23,7 @@ import com.JobPortal.SpringJobportal.service.AdminMailService;
 
 @RestController
 @RequestMapping("/applications")
-@CrossOrigin(origins = "http://localhost:5173")
+//@CrossOrigin(origins = "http://localhost:5173")
 public class ApplicationController {
 
     @Autowired
